@@ -20,17 +20,16 @@
 }
 
 .res-container {
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px 0px;
-  margin-top: 15px;
-  margin-left: 203px;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
 }
 
 .res-card {
   text-align: center;
   width: 200px;
   padding: 5px;
+  margin: 40px;
 }
 
 .res-card:hover {
@@ -52,4 +51,24 @@
 
 .filter-Btn {
   margin-top: 10px;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  width: 200px;
+  height: 400px;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+
+.login-info {
+  width: 60px;
+}
+
+.filter-Btn {
+  margin: 5px;
 }
